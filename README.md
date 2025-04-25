@@ -32,13 +32,13 @@ Workflow
     - Based on retrieved information and prompt template
  
 Run LLM locally? 
-"High-quality" answers need high-quality language models, which usually don't run well locally — especially not with just 8 GB RAM.
-What people do instead (including pros):
-- Local embeddings → run locally, fast, accurate for finding relevant chunks
-- Cloud-based LLM → only the answering happens online
-- This hybrid setup is called a "local+cloud RAG" and is what most devs and startups use.
+- "High-quality" answers need high-quality language models, which usually don't run well locally — especially not with just 8 GB RAM.
+- What people do instead (including pros):
+    - Local embeddings → run locally, fast, accurate for finding relevant chunks
+    - Cloud-based LLM → only the answering happens online
+    - This hybrid setup is called a "local+cloud RAG" and is what most devs and startups use.
 
 Model choice:
-fast + smart --> OpenAI GPT-3.5    (cost 0,002$ / request --> affordable)
+- fast + smart --> OpenAI GPT-3.5    (cost 0,002$ / request --> affordable)
 
 
