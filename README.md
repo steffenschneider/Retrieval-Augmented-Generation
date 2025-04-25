@@ -14,19 +14,19 @@ Component	Tool / Library
 - Optional UI	Streamlit, Gradio, or simple CLI
 
 Workflow
-Load documents
+- Load documents
     Read local files (.txt, .pdf, .docx, etc.)
     Clean and preprocess the content
-Split text into chunks
+- Split text into chunks
     Typically 300–1000 tokens each
     Use overlap (e.g. 50–100 tokens) for better context retention
-Generate vector embeddings
+- Generate vector embeddings
     Convert each chunk into an embedding (vector representation)
-Store in vector database (FAISS)
+- Store in vector database (FAISS)
     Allows fast semantic similarity search
-User asks a question
+- User asks a question
     Input gets embedded and matched with top-k most similar chunks
-Retrieve top context chunks
+- Retrieve top context chunks
     Use those chunks to provide context for the LLM
-LLM generates an answer
+- LLM generates an answer
     Based on retrieved information and prompt template
